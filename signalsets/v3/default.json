@@ -21,7 +21,7 @@
     {"id": "EHS_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
     {"id": "EHS_TT_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "7DF", "rax": "7EC", "dbg": true, "cmd": {"22": "B001"}, "freq": 180,
+{ "hdr": "7DF", "rax": "7EC", "cmd": {"22": "B001"}, "freq": 180, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "EHS_EVCC_CURRENT", "path": "Battery.EVCC", "fmt": { "len": 16, "max": 250, "div": 5, "add": -409.6, "unit": "amps" }, "name": "Current"}
   ]},
@@ -37,7 +37,7 @@
   "signals": [
     {"id": "EHS_EVCC_VOLTAGE", "path": "Battery.EVCC", "fmt": { "len": 16, "max": 675.618556, "div": 97, "unit": "volts" }, "name": "Voltage"}
   ]},
-{ "hdr": "7DF", "rax": "7ED", "dbg": true, "cmd": {"22": "B001"}, "freq": 180,
+{ "hdr": "7DF", "rax": "7ED", "cmd": {"22": "B001"}, "freq": 180, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "EHS_HVBAT_CMU01_MINVOLT", "path": "Battery.Modules.01", "fmt": {           "len": 16, "max": 10,   "div": 2000, "add": 1,   "unit": "volts"   }, "name": "HV battery module 01 min voltage"},
     {"id": "EHS_HVBAT_CMU01_MAXVOLT", "path": "Battery.Modules.01", "fmt": {"bix": 16, "len": 16, "max": 10,   "div": 2000, "add": 1,   "unit": "volts"   }, "name": "HV battery module 01 max voltage"},
