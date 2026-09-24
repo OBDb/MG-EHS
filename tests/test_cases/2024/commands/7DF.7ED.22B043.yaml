@@ -1,0 +1,14 @@
+command_id: 7DF.7ED.22B043
+test_cases:
+- expected_values:
+    EHS_HVBAT_CURRENT: 0
+  response: 7ED0562B0439572
+- expected_values:
+    EHS_HVBAT_CURRENT: 4.775
+  response: 7ED0562B0439CFF
+- expected_values:
+    EHS_HVBAT_CURRENT: 4.8
+  response: 7ED0562B0439D00
+- expected_values:
+    EHS_HVBAT_CURRENT: 94.9
+  response: 7ED0562B043AB14

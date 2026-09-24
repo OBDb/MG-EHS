@@ -1,0 +1,8 @@
+command_id: 7DF.7ED.22B05C
+test_cases:
+- expected_values:
+    EHS_HVBAT_COOLANT_TEMP: 14
+  response: 7ED0462B05C6C
+- expected_values:
+    EHS_HVBAT_COOLANT_TEMP: 37
+  response: 7ED0462B05C9A

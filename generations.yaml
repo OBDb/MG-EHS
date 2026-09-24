@@ -1,0 +1,18 @@
+references:
+  - "https://en.wikipedia.org/wiki/MG_HS"
+
+generations:
+  - name: "First Generation"
+    start_year: 2020
+    end_year: 2022
+    description: "The MG EHS is the plug-in hybrid version of the first-generation MG HS, introduced in 2020. It pairs the 1.5-litre turbocharged four-cylinder with an electric motor for a combined output of around 258 horsepower, drawing on a battery that gives roughly 50 kilometres of electric range. Mechanically and electronically it follows the HS, built on the SAIC platform shared with the Roewe RX5, so its body and chassis modules match those of the petrol car while the powertrain adds a battery management system and a charger."
+
+  - name: "First Generation (Facelift)"
+    start_year: 2023
+    end_year: 2024
+    description: "The facelifted EHS carries the refreshed HS styling and infotainment, with the same plug-in hybrid powertrain. Interior changes brought an updated head unit and an electronic gear selector, while the driver assistance suite gained functions in some markets. Battery and charging hardware carried over."
+
+  - name: "Second Generation"
+    start_year: 2024
+    end_year: null
+    description: "The second-generation HS, unveiled in July 2024 and based on the second-generation Roewe RX5, offers a plug-in hybrid producing 303 horsepower with roughly 113 kilometres of electric range. The electrical architecture is new alongside the body, so commands confirmed on the first generation cannot be assumed to carry over."

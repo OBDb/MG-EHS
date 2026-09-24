@@ -1,0 +1,8 @@
+command_id: 7DF.7ED.22B061
+test_cases:
+- expected_values:
+    EHS_HVBAT_SOH: 95.85
+  response: 7ED0562B0612571
+- expected_values:
+    EHS_HVBAT_SOH: 97.09
+  response: 7ED0562B06125ED

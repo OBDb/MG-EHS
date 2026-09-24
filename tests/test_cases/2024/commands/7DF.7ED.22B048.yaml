@@ -1,0 +1,8 @@
+command_id: 7DF.7ED.22B048
+test_cases:
+- expected_values:
+    EHS_HVBAT_CHARGING: 1
+  response: 7ED0462B04801
+- expected_values:
+    EHS_HVBAT_CHARGING: 1
+  response: 7ED0462B04803
