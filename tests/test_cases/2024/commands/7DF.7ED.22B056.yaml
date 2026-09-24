@@ -1,0 +1,8 @@
+command_id: 7DF.7ED.22B056
+test_cases:
+- expected_values:
+    EHS_HVBAT_TEMP: 16
+  response: 7ED0562B05670FF
+- expected_values:
+    EHS_HVBAT_TEMP: 39
+  response: 7ED0562B0569EFF

@@ -1,0 +1,11 @@
+command_id: 7DF.7ED.22B042
+test_cases:
+- expected_values:
+    EHS_HVBAT_VOLTAGE: 312.25
+  response: 7ED0562B04204E1
+- expected_values:
+    EHS_HVBAT_VOLTAGE: 319.75
+  response: 7ED0562B04204FF
+- expected_values:
+    EHS_HVBAT_VOLTAGE: 320
+  response: 7ED0562B0420500
