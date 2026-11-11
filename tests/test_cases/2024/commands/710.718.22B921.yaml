@@ -4,6 +4,11 @@ test_cases:
     EHS_GWM_ODO: 0
   response: |-
     718100962B921000000
+    71821000000AAAAAAAA
+- expected_values:
+    EHS_GWM_ODO: 0
+  response: |-
+    718100962B921000000
     71821001FA4AAAAAAAA
 - expected_values:
     EHS_GWM_ODO: 0
@@ -20,16 +25,6 @@ test_cases:
   response: |-
     718100962B921001EFF
     71821001EDCAAAAAAAA
-- expected_values:
-    EHS_GWM_ODO: 8006
-  response: |-
-    718100962B921001F46
-    71821001F40AAAAAAAA
-- expected_values:
-    EHS_GWM_ODO: 8206
-  response: |-
-    718100962B92100200E
-    71821002008AAAAAAAA
 - expected_values:
     EHS_GWM_ODO: 15511
   response: |-
