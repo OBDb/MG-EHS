@@ -16,10 +16,10 @@ test_cases:
     718100962B921000000
     718210035E8AAAAAAAA
 - expected_values:
-    EHS_GWM_ODO: 7904
+    EHS_GWM_ODO: 0
   response: |-
-    718100962B921001EE0
-    71821001EDCAAAAAAAA
+    718100962B921000000
+    7182100364CAAAAAAAA
 - expected_values:
     EHS_GWM_ODO: 7935
   response: |-
