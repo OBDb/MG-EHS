@@ -4,6 +4,9 @@ test_cases:
     EHS_HVBAT_CHARGING: 1
   response: 7ED0462B04801
 - expected_values:
+    EHS_HVBAT_CHARGING: 0
+  response: 7ED0462B04802
+- expected_values:
     EHS_HVBAT_CHARGING: 1
   response: 7ED0462B04803
 - expected_values:
